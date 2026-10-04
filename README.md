@@ -209,7 +209,7 @@ airline-passenger-satisfaction-sql/
 
 ## How to Use This Project
 
-### 1. Load the Dataset
+### 1. Create the SQL Server table and load the dataset
 Import `data/airline_passenger_satisfaction.csv` into your SQL database:
 
 ```sql
@@ -287,8 +287,8 @@ The project demonstrates SQL growth from exploratory queries to sophisticated an
 
 ## Technical Notes
 
-- All SQL queries are database-agnostic (standard SQL)
-- May require minor syntax adjustments for specific DBMS (SQL Server, PostgreSQL, MySQL, etc.)
+- - **SQL Server / T-SQL** is the target dialect for this project
+- Queries use SQL Server features such as `PERCENTILE_CONT`, `TOP`, and `BULK INSERT`
 - Window functions (RANK, OVER, etc.) require modern SQL engine
 - No external libraries or complex dependencies
 - Focus on readability and clarity over optimization
