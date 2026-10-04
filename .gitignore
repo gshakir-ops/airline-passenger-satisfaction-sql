@@ -1,0 +1,24 @@
+# Data files (if they contain sensitive information)
+*.csv.bak
+*.csv.tmp
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Temporary files
+~*
+*.tmp
+
+# OS files
+Thumbs.db
+.DS_Store
